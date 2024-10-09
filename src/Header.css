@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    height: 80px;
+    background-color: rgb(240, 239, 239);
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .left-side,
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-left: 10px; /* Space between icon and name */
+  }
+  
+  .icon-name {
+    margin-left: 5px; /* Space between icon and name */
+  }
+  
+  

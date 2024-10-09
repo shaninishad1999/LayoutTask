@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* conatiner css */
+
+.custom-container {
+  background-color: white; /* Set background color to white */
+  border: 1px solid #ccc; /* Set border color */
+  padding: 20px; /* Optional: add some padding inside the container */
+  min-height: 100vh; /* Optional: ensure the container takes at least full window height */
+}
