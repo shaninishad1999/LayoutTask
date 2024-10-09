@@ -7,27 +7,27 @@ const Header = () => {
   return (
     <>
       <div className="navbar">
-    <Container>
-        <div className="left-side">
-          <div className="icon-container">
-            <FontAwesomeIcon icon={faSearch} className="search-icon" />
+        <Container>
+          <div className="left-side">
+            <div className="icon-container">
+              <FontAwesomeIcon icon={faSearch} className="search-icon" />
+            </div>
+            <p style={{ margin: '0 10px' }}>Hi! Shanideval</p>
           </div>
-          <p>Hi! Shanideval</p>
-        </div>
 
-        <div className="right-side">
-          <p>15 October 2024</p>
-          <div className="icon-container">
-            <FontAwesomeIcon icon={faBell} className="notification-icon" />
+          <div className="right-side">
+            <p style={{ margin: '0 10px' }}>15 October 2024</p>
+            <div className="icon-container">
+              <FontAwesomeIcon icon={faBell} className="notification-icon" />
+            </div>
+            <img 
+              src="/src/assets/react.svg" 
+              alt="Icon" 
+              className="header-icon" 
+            />
+            <p className="icon-name">Your Name</p>
           </div>
-          <img 
-            src="/src/assets/react.svg" 
-            alt="Icon" 
-            className="header-icon" 
-          />
-          <p className="icon-name">Your Name</p>
-        </div>
-      </Container>
+        </Container>
       </div>    
       <style jsx>{`
         .navbar {
@@ -45,7 +45,7 @@ const Header = () => {
           display: flex;
           align-items: center; /* Center items vertically */
         }
-        .right-side p {
+        .right-side p, .left-side p {
           margin: 0 10px; /* Spacing between elements */
         }
         .icon-container {
